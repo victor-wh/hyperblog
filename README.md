@@ -6,3 +6,5 @@ Un blog de prueba para el curso de platzi
 * El flujo de trabajo en Github
 * El verdadero amor por las buenas practicas
 * Creado por victor-wh
+* incluye ejemplo en windows, linus y Mac
+* Disponible para todas las edades
