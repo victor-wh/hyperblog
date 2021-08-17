@@ -1,5 +1,5 @@
 # hyperblog
-Un blog de prueba para el curso de platzi
+Un blog de prueba para el curso de platzi prueba
 
 ## En este curso vemos de todo
 * Todos lo comando de git
