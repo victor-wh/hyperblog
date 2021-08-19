@@ -4,7 +4,7 @@ pipeline {
         stage("Github"){
             steps{
                 echo "Iniciando github"
-                sh './deployment/deploy_prod.sh'
+                sh './deploy_prod.sh'
             }
         }
     }
