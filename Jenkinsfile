@@ -4,7 +4,7 @@ pipeline {
         stage("Github"){
             steps{
                 echo "Iniciando github"
-                sh './deploy_prod.sh'
+                sh 'sudo ./deploy_prod.sh'
             }
         }
     }
