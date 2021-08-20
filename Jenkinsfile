@@ -1,11 +1,13 @@
 pipeline {
     agent any
     stages {
-        stage("Github"){
+        stage("Deploy"){
             steps{
-                echo "Iniciando github"
-                sh './deploy_prod.sh'
-            }
-        }
-    }
+                sshagent(credentials: ['e856c6d2-75df-426f-91aa-e867405d320f']) {
+                    echo "Iniciando Deploy"
+                    sh './deploy_prod.sh'
+                }
+             }
+         }
+     }
 }
