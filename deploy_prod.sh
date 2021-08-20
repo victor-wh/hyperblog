@@ -4,6 +4,7 @@ echo "--------------"
 ifconfig
 pwd
 echo "********* git pull *******"
-ssh -vT git@github.com
+cd ~/projects-multibranch/
+git clone git@github.com:victor-wh/hyperblog.git
   exit
 EOF
